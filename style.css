@@ -1,0 +1,109 @@
+#back{
+  color: #f20909;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-image: url(imagem/aviao-ceu-azul.jpg);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 120vh; /* aumenta a altura do body para 120% da altura da viewport */
+  overflow-y: auto; /* permite que o conteúdo do body seja rolado verticalmente */
+}
+
+   form {
+        color: #1eff00;
+        background-image: url(css/);
+        padding: 10px;
+        bottom: 10%;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(243, 5, 5, 0.991);
+        width: 300px;
+        margin: 0 auto; /* adiciona uma margem automática esquerda e direita */
+        text-align: center; /* centraliza o conteúdo do formulário */
+    }
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.botao-agropecuarias,.botao-construcao,.botao-farmacias,.botao-lancherias,.botao-mercados,.botao-diversos,.botao-roupas,.botao-salao, .botao-transporte {
+  width: 200px; /* tamanho dos botões */
+  height: 40px; /* altura dos botões */
+  margin: 10px auto; /* centralizar os botões */
+  display: block; /* fazer os botões se comportarem como blocos */
+  text-align: center; /* centralizar o texto dos botões */
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+.botao-agropecuarias {
+  background-color: #4CAF50;
+}
+
+.botao-construcao {
+  background-color: #FFC107;
+}
+
+.botao-farmacias {
+  background-color: #2196F3;
+}
+
+.botao-lancherias {
+  background-color: #FF9800;
+}
+
+.botao-mercados {
+  background-color: #8BC34A;
+}
+
+.botao-diversos {
+  background-color: #3F51B5;
+}
+
+.botao-roupas {
+  background-color: #FF69B4;
+}
+
+.botao-salao {
+  background-color: #9C27B0;
+}
+
+.botao-transporte {
+  background-color: #08f00c;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.card {
+  margin-top: 20px; /* ajuste o valor para a distância desejada */
+}
